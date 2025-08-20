@@ -86,3 +86,6 @@ kind create cluster --name kind
 ## Configurações do cluster
 bat 'kubectl config use-context kind-kind'
 KUBECONFIG = 'C:/Users/profl/.kube/config'
+
+## Deploy automatico github
+https://4c20440ef14f.ngrok-free.app/github-webhook/
