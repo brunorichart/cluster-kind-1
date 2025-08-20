@@ -4,7 +4,8 @@ metadata:
   name: node-simples-service
   namespace: meu-cloud-node
 spec:
-  type: NodePort
+  #type: NodePort
+  type: LoadBalancer
   selector:
     app: node-simples
   ports:
