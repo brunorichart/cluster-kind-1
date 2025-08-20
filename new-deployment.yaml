@@ -15,6 +15,6 @@ spec:
     spec:
       containers:
       - name: node
-        image: node-simples:26
+        image: node-simples:27
         ports:
         - containerPort: 3004
